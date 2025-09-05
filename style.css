@@ -194,7 +194,7 @@ body {
     text-align:center;
   }
   .discord-widget-container {
-    width:70%;
+    width:10%;
   }
 }
 
@@ -286,7 +286,7 @@ body {
 }
 
 .watermark img{
-  width:60px;
+  width:90px;
 }
 
 .watermark:hover{
