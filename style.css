@@ -188,16 +188,17 @@ body {
 
 /* Mobile */
 @media (max-width:768px){
-  .discord-box{
-    flex-direction: column;
-    align-items:center;
-    text-align:center;
-  }
   .discord-widget-container {
-    width:10%;
+    width: 100%;            /* prende tutta la larghezza disponibile */
+    max-width: 400px;       /* limita a una dimensione decente */
+    transform: rotate(0deg);/* niente inclinazione su mobile */
+  }
+
+  .discord-widget-container iframe {
+    width: 100% !important; /* iframe adatta alla larghezza container */
+    height: 500px;          /* puoi ridurre se serve */
   }
 }
-
 
 /* TIMELINE VERTICALE */
 .steps {
